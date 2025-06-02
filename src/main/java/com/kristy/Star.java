@@ -7,9 +7,10 @@ public class Star {
     public static void main(String[] args) {
         Finch bird = new Finch();
 
-        bird.setMove("F", 15, 100);
-        bird.setTurn("R", 120, 50);
-        bird.setMove("F", 15, 100);
+        for (int i = 0; i < 5; i++) {
+            bird.setMove("F", 20, 7clea0);
+            bird.setTurn("R", 146.5, 50);
+        }
 
         bird.stopAll();
         bird.disconnect();
