@@ -8,17 +8,23 @@ public class Star {
         // creates a new Finch object
         Finch bird = new Finch();
 
-        // executes the program a certain amount of time
-        for (int i = 0; i < 5; i++) {
-            // has the Finch move forward 20 cm
-            bird.setMove("F", 20, 70);
-            // has the Finch turn 146.5 degrees right
-            bird.setTurn("R", 146.5, 50);
-        }
+        star(5, 20);
 
         // stops then disconnects the Finch object
         bird.stopAll();
         bird.disconnect();
+    }
+
+    public void star (int points, double size) {
+        double degrees = 0.0;
+        
+        // executes the program a certain amount of time
+        for (int i = 0; i < points; i++) {
+            // has the Finch move forward 
+            bird.setMove("F", size, 70);
+            // has the Finch turn right
+            bird.setTurn("R", degrees, 50);
+        }
     }
 
 }
