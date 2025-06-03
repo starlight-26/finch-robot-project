@@ -8,7 +8,7 @@ public class Star {
         Finch bird = new Finch();
 
         for (int i = 0; i < 5; i++) {
-            bird.setMove("F", 20, 7clea0);
+            bird.setMove("F", 20, 70);
             bird.setTurn("R", 146.5, 50);
         }
 
