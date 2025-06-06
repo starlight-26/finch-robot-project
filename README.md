@@ -118,9 +118,13 @@ If you complete your chosen challenge early, consider:
 - Adding an obstacle detection and avoidance system
 
 ## Description of design choices
+I chose to make my Finch Robot draw a star. I decided to do this because I love drawing stars and I thought it woud be th easiet thing for me to do.
 
 ## Challenges faced and solutions
+A challenge I faced during the coding process was figuring out the angle that would make the Finch Robot draw a star correctly. Sometimes it would not connect and other times it would connect at the wrong place at the end. I ended finding that the right equation is ((2*360) / number of points) + 2.85. 
 
 ## Future enhancements
+If I had more time, I would want to make my Finch Robot be able to draw stars of different sizes and different number of points. I think I could do this by making a method with those two as parameters. Then I could use the numbers to calculate the number of degrees the robot would need to turn.
 
 ## Video
+[Finch Robot Project](https://youtube.com/shorts/9k3EZeny3mI?feature=share)
