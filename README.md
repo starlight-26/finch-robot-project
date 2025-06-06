@@ -116,3 +116,11 @@ If you complete your chosen challenge early, consider:
 - Creating a user interface to control robot parameters (JFrame, Swing, JavaFX)
 - Implementing multiple modes of operation
 - Adding an obstacle detection and avoidance system
+
+## Description of design choices
+
+## Challenges faced and solutions
+
+## Future enhancements
+
+## Video
